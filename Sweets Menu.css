@@ -1,0 +1,239 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    color:white;
+}
+.header
+{
+    background-color: rgb(5, 5, 70);
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-size:20px;
+    z-index:1;
+}
+.parent
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    animation: example 2s ease-in 10ms  forwards;
+    
+}
+.child    
+{
+    flex:45%;
+    border:1px solid black;
+    overflow: auto;
+    margin:1%;
+    padding:10px;
+    border-radius:15px ;
+    background-color:white;
+    
+}
+.child1{
+    background-image: url("singleimagetext-boozy-sherbet-punch-pin-1573748568.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child2{
+    background-image: url("lemon-blueberry-babka-6-1652479706.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child3{
+    background-image: url("marg-h-1526063646.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child4{
+    background-image: url("lemon-blueberry-daiquiris5-1652296505.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child5{
+    background-image: url("صور-حلويات-1-450x338.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.child6{
+    background-image: url("حلويات-سوارية-1-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.child7{
+    background-image: url("lemon-blueberry-babka-6-1652479706.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child8{
+    background-image: url("احلي-حلويات-2-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.child9{
+    background-image: url("حلويات-HD-5-450x253.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child10{
+    background-image: url("حلويات-جميلة-بالصور-3-450x450.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child11{
+    background-image: url("حلويات-سوارية-3-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.child12{
+    background-image: url("خلفيات-حلويات-1-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.child13{
+    background-image: url("خلفيات-حلويات-2-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child14{
+    background-image: url("خلفيات-وصور-حلويات-جميلة-1-300x450.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.child15{
+    background-image: url("صور-حلويات-1-450x338.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.child16{
+    background-image: url("2622-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child17{
+    background-image: url("خلفيات-وصور-حلويات-جميلة-1-300x450.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child18{
+    background-image: url("خلفيات-حلويات-2-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child19{
+    background-image: url("خلفيات-حلويات-1-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child20{
+    background-image: url("حلويات-سوارية-3-450x281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child21{
+    background-image: url("حلويات-جميلة-بالصور-3-450x450.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child22{
+    background-image: url("m1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child23{
+    background-image: url("m2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child24{
+    background-image: url("m3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Order{
+        color:white;
+        text-decoration: none;
+        display: block;
+        border-radius:20px;
+        border:2px solid white;
+        padding:10px;
+        width:20%;
+        margin: auto;
+        text-align: center;
+}
+.Order:hover 
+{
+    background-color: rgb(5, 5, 70);
+    border: none;
+}
+@keyframes example {
+    0%{margin-left:-3000px;}
+    100%{margin:2%;}
+}
+small
+{
+    color:black;
+}
+.Footer
+{
+    font-family:TimeBurner;
+    display:flex;
+    background-color: #333;
+    color:white;
+}
+.links
+{
+    flex:50%;
+    padding:2% 6%;
+}
+.links i,.links h2
+{
+    color: yellow;
+}
+.links a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding:6px;
+}
+.links a:hover{color: orangered;}
+.links >div
+{
+    padding:6px;
+}
+span{color: rgb(5, 5, 70);font-size:20px;}
+@media screen and (max-width:750px)
+{
+    .Footer{flex-direction: column;}
+}
+@media screen and (min-width:650px) and (max-width:1024px)
+{
+    .parent{flex-direction: column;}
+    .child{flex:96%;margin:2%;}
+    .header
+    {
+        font-size:10px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .parent{flex-direction: column;}
+    .child{flex:96%;margin:2%;}
+    .header
+    {
+        font-size:10px;
+    }
+}
+
